@@ -1,0 +1,29 @@
+{
+  "name": "practical_viva",
+  "version": "1.0.0",
+  "description": "Backend for Secure Task Manager API for EndTerm Practical.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushadarsh01/Practical_Viva.git"
+  },
+  "keywords": [],
+  "author": "Adarsh Kumar Kushwaha",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Kushadarsh01/Practical_Viva/issues"
+  },
+  "homepage": "https://github.com/Kushadarsh01/Practical_Viva#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1",
+    "nodemon": "^3.1.14"
+  }
+}
